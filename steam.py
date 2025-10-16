@@ -1,4 +1,4 @@
-📜 webhook_sender.py
+ webhook_sender.py
 
 import requests
 import json
@@ -9,7 +9,7 @@ def send_to_discord(email, username, password, profile_link):
     payload = {
         "username": "Steam Generator",
         "embeds": [{
-            "title": "☑️ Nova Conta Steam Criada",
+            "title": " Nova Conta Steam Criada",
             "color": 0x00ff00,
             "fields": [
                 {"name": "Email", "value": email, "inline": False},
